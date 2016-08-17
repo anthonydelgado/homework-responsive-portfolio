@@ -53,3 +53,26 @@ footer {
     padding: 30px 0px;
     text-align: center;
 }
+
+
+@media (max-width: 900px) {
+
+    .container {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    img {
+        max-width: 150px;
+    }
+
+
+    .p15 {
+        padding: 15px;
+    }
+
+    div.content, aside.sidebar {
+        width: 100%;
+    }
+}
